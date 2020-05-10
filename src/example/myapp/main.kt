@@ -21,6 +21,16 @@ fun buildAquarium(){
     val myTower=TowerTank(diameter = 25,height = 40)
     myTower.printSize()
 }
+
+fun makeFish(){
+    val shark=Shark()
+    val ple=ple()
+    println("Shar is ${shark.color}")
+    shark.eat()
+    println("ple is ${ple.color}");ple.eat()
+}
+
 fun main(){
-    buildAquarium()
+//    buildAquarium()
+    makeFish()
 }
